@@ -2,7 +2,7 @@
 
 ## Features V0.1.0
 
--[ ] #001: Basic UI (Header, main, footer)
+- [ ] #001: Basic UI (Header, main, footer)
 
 -[ ] #002: Challange List (CRUD): User can create a challenge with a title, and description and a button for display if the challenge is active or not. User can edit and delete the challenges.
 
