@@ -1,1 +1,3 @@
-    
+.stroke-text {
+  @apply font-extrabold text-light;
+}

@@ -1,7 +1,14 @@
-import "./App.css";
+import Layout from './components/layout/Layout'
+import './styles/components.css'
 
 function App() {
-  return <div className="App">Hello world </div>;
+  return (
+    <Layout>
+      <section>
+        <h1>Hola</h1>
+      </section>
+    </Layout>
+  )
 }
 
-export default App;
+export default App
