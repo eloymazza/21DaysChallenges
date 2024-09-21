@@ -6,7 +6,7 @@ const Header = () => {
     <div className="flex h-16 items-center justify-center bg-primary">
       <Title>
         <WithStroke>
-          <span>21 Days Challenge</span>
+          <span>21 DAYS CHALLENGE</span>
         </WithStroke>
       </Title>
     </div>

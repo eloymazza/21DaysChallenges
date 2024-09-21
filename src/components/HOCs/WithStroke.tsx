@@ -5,7 +5,7 @@ type WithStrokeProps = {
 }
 
 const WithStroke: FC<WithStrokeProps> = ({ children }) => {
-  const styles = { WebkitTextStroke: '1px black', textShadow: '2px 2px 4px rgba(0, 0, 0, 0.5)' }
+  const styles = { WebkitTextStroke: '1px black' }
   const childWithClass = cloneElement(children, {
     className: `${children.props.className || ''} stroke-text`.trim(),
     style: {
