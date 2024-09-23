@@ -1,3 +1,19 @@
 .stroke-text {
   @apply font-extrabold text-light;
 }
+
+.section-title {
+  @apply text-xl font-bold text-contrastText;
+}
+
+.input {
+  @apply w-full rounded-md border border-slate-300 p-2 text-sm text-contrastText outline-none focus:border-slate-400 focus:outline-none;
+}
+
+.label {
+  @apply text-slate-800;
+}
+
+.checkbox {
+  @apply accent-current;
+}

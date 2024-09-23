@@ -1,5 +1,5 @@
 import PageTitle from '../UI/PageTitle'
-import ChallengesList from './ChallengesList/ChallengesList'
+import ChallengesPanel from './ChallengesList/ChallengesPanel'
 
 export const ChallengesDashboard = () => {
   return (
@@ -8,7 +8,7 @@ export const ChallengesDashboard = () => {
         <PageTitle>CHALLENGES BOARD</PageTitle>
       </div>
       <div className="flex grow">
-        <ChallengesList />
+        <ChallengesPanel />
       </div>
     </div>
   )

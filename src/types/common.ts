@@ -1,5 +1,5 @@
 export type Challenge = {
-  id: number
+  id: string
   title: string
   description: string
   daysDuration: number
